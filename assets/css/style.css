@@ -1,0 +1,192 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1100px;
+	margin:0 auto;
+	
+}
+.row, .row::after, .row::before{
+	clear:both;
+	display:table;
+	width:100%;
+}
+/* .col-3, .col-6, .col-9, .col-12{ */
+	/* float:left; */
+	/* padding:0 15px; */
+/* } */
+[class^='col-']{
+	float:left;
+	padding:0 15px;
+}
+.col-1{
+	width:calc(100% / 12);
+}
+.col-3{
+	width:calc(100% * 3 / 12);
+}
+.col-2{
+	width:calc(100% * 2 / 12);
+}
+.col-4{
+	width:calc(100% * 4 / 12);
+}
+.col-5{
+	width:calc(100% * 5 / 12);
+}
+.col-6{
+	width:calc(100% * 6 / 12);
+}
+.col-9{
+	width:calc(100% * 9 / 12);
+}
+.col-10{
+	width:calc(100% * 10 / 12);
+}
+.col-12{
+	width:calc(100% * 12 / 12);
+}
+.text-center{
+	text-align:center;
+}
+.mb-20{
+	margin-bottom:20px;
+}
+.mb-70{
+	margin-bottom:70px;
+}
+.mt-74{
+	margin-top:74px;
+}
+.mb-80{
+	margin-bottom:80px;
+}
+.mb-90{
+	margin-bottom:90px;
+}
+.mb-135{
+	margin-bottom:135px;
+}
+/* section heroimg css */
+.heroimg{
+	padding:60px 0 105px;
+	background-color:#fcdb00;
+}
+
+.navbar{
+	list-style:none;
+	text-align:right;
+}
+.navbar li {
+	display:inline-block;
+	margin-left:52px;
+}
+.navbar li a{
+	text-decoration:none;
+	padding:10px;
+	display:inline-block;
+	font-size:22px;
+	font-weight:bold;
+	color:#000;
+}
+.pri-heading{
+	margin-bottom:30px;
+	font-size:32px;
+	color:#010101;
+}
+.sec-heading{
+	margin-bottom:25px;
+	font-size:20px;
+	font-weight:400;
+	color:#313841;
+}
+.para{
+	font-size:16px;
+	color:#555555;
+	margin-bottom:45px;
+}
+.iPad{
+	text-align:center;
+	
+}
+ul{
+	list-style:none;
+}
+ul li{
+	display:inline-block;
+}
+.social-icons li{
+	font-size:40px;
+	margin-right:35px;
+	color:black;
+}
+.social-icons li a{
+	color:black;
+}
+
+	/* ############# Features section css ################ */
+
+.features{
+	padding:120px 0 80px;
+	/* background-color:#fff; */
+}
+.thumb-icon i {
+	font-size:50px;
+}
+.thumb-info h3{
+	font-size:22px;
+	color:#010101;
+	margin-bottom:18px;
+}
+.thumb-info p{
+	font-size:16px;
+	color:#898989;
+}
+
+	/* ############# Footer section css ################ */
+
+.footer{
+	padding:95px 0 140px;
+	background-color:#010101;
+}
+.footer h1{
+	color:#fcdb00;
+}
+.footer h3{
+	color:#898989;
+}
+.input, .btn{
+	width:100%;
+	padding:15px;
+	border:none;
+	border-radius:3px;
+}
+.btn{
+	background-color:#fcdb00;
+	text-transform:uppercase;
+	padding:13px;
+	font-size:16px;
+	font-weight:bold;
+	color:#010101;
+	border:1px solid #fcdb00;
+}
+.btn:hover{
+	background-color:#010101;
+	color:#fcdb00;
+	border:1px solid #fcdb00;
+}
+.footer-icons{
+	list-style:none;
+}
+.footer-icons li {
+    margin: 0 16px;
+} 
+.footer-icons li a{
+	font-size:42px;
+	color:#fcdb00;
+}
+.footer-list li{
+	color:#fff;
+}
